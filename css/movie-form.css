@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 50px;
+}
+nav {
+    background-color: #b9b7b7;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+}
+
+nav div {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.fields{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#submit
+{
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+
+}
+#submit:hover {
+    background-color: #0d65b9;
+    cursor: pointer;
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.edit-button:hover {
+    background-color: #0d65b9;
+    cursor: pointer;
+}
